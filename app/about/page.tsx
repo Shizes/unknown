@@ -1,9 +1,12 @@
-import React from 'react'
-
-const about = () => {
+import React from 'react';
+import Header from '@/components/header'; // Asegúrate de que el path sea correcto
+const About = () => {
   return (
-    <div>about</div>
-  )
-}
+    <>
+      <Header />
+      <div>About</div>
+    </>
+  );
+};
 
-export default about
+export default About;
