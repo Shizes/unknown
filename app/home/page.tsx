@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+import Header from '@/components/header';
 
-const homes = () => {
+const Homes = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <>
+      <Header />
+      <div>Home</div>
+    </>
+  );
+};
 
-export default homes
+export default Homes;
